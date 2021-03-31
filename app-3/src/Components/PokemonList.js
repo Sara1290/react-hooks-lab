@@ -1,7 +1,6 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import Pokemon from "./Pokemon";
 
 const PokemonList = (props) => {
     const [list, setList] = useState([])
